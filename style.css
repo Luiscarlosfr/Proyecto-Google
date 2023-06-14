@@ -3,8 +3,10 @@ header {
 flex-direction: row;
 background-color: white;
 justify-content: end;
+gap: 15px;
 }
  .Cuenta {
     width: 25px;
     height: 25px;
 }
+#items-header {text-align: center;}
