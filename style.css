@@ -1,20 +1,52 @@
-header {
-    display: flex;
-flex-direction: row;
-background-color: white;
-align-items: center;
-justify-content: end;
-gap: 15px;
-text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
 }
- .Cuenta {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+body {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-main {display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
 
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  justify-content: end;
+  gap: 25px;
+  height: 50px;
+  padding-right: 20px;
 }
+.Cuenta {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.logo {
+    width: 320px;
+    height: 260px;
+  }
+  #search-input {height: 40px;
+width: 600px;
+border-radius: 45px ;
+padding-left: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  background-color: white;
+  height: 20%;
+}
+
